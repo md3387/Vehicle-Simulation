@@ -7,9 +7,9 @@ import time
 # Input parameters
 num_vehicles = 6
 Vehicle_length = 2.4  # [m]
-track_circumference = 2000  # [m] Circumference of the circular track
+track_circumference = 1000  # [m] Circumference of the circular track
 time_skip_per_draw = 10
-simulation_file = 'vehicle_positions_and_speeds.xlsx'
+simulation_file = 'vehicle_positions_and_speeds_4.xlsx'
 
 # Read data from Excel
 df = pd.read_excel(simulation_file)
